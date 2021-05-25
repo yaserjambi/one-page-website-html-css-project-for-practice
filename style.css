@@ -72,6 +72,10 @@ p {
 }
 
 /* Header section */
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
 #header {
 	position: fixed;
 	z-index: 1000;
@@ -114,7 +118,7 @@ p {
 	left: 0%;
 }
 #header .nav-list ul a {
-	font-size: 2.5rem;
+	font-size: 25px;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	text-decoration: none;
@@ -200,7 +204,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(https://www.jaraah.com/ui/cash/R_uploads_works_villa_model_4_10305971617191407.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -289,7 +293,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	padding: 30px;
+	padding: 30px ;
 	border-radius: 10px;
 	background-image: url(./img/img-1.png);
 	background-size: cover;
@@ -696,8 +700,8 @@ p {
 	/* End header */
 
 	#services .service-bottom .service-item {
-		flex-basis: 22%;
-		margin: 1.5%;
+		flex-basis: 45%;
+		margin: 2.5%;
 	}
 }
 /* End  Media Query For Desktop */
