@@ -11,6 +11,7 @@ html {
 }
 a {
 	text-decoration: none;
+	
 }
 .container {
 	min-height: 100vh;
@@ -126,6 +127,7 @@ p {
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
+	
 }
 #header .nav-list ul a::after {
 	content: attr(data-after);
@@ -268,7 +270,7 @@ p {
 
 /* End Hero Section */
 
-/* Services Section */
+/* Services Section ------------------------------------------------------------------------------------------------------------------------------------ */
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -279,6 +281,10 @@ p {
 #services .service-top {
 	max-width: 500px;
 	margin: 0 auto;
+}
+
+#services .service-top p{
+	font-size: 18px;
 }
 #services .service-bottom {
 	display: flex;
@@ -295,7 +301,7 @@ p {
 	flex-direction: column;
 	padding: 30px ;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-color: black;
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -327,6 +333,7 @@ p {
 #services .service-item p {
 	color: white;
 	text-align: left;
+
 }
 /* End Services Section */
 
@@ -392,7 +399,6 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0.7;
 }
 #projects .project-img img {
@@ -692,7 +698,8 @@ p {
 		display: inline-block;
 	}
 	#header .nav-list ul li a {
-		font-size: 1.8rem;
+		font-size: 2rem;
+		font-weight: bold;
 	}
 	#header .nav-list ul a:after {
 		display: none;
