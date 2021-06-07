@@ -20,6 +20,11 @@ a {
 	align-items: center;
 	justify-content: center;
 }
+.container_service {
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+}
 img {
 	height: 100%;
 	width: 100%;
@@ -294,7 +299,7 @@ p {
 	margin-top: 50px;
 }
 #services .service-item {
-	flex-basis: 80%;
+	flex-basis: 100%;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
@@ -597,6 +602,12 @@ p {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
+
+	#services .service-bottom {
+		flex-wrap: inherit;
+	}
+
+
 	/* End Services Section */
 
 	/* Project */
